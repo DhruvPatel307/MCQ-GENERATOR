@@ -4,6 +4,7 @@ streamlit
 python-dotenv
 PyPDF2
 PyMuPDF
+reportlab
 
 
 -e .
