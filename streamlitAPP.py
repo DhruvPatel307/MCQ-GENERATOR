@@ -167,7 +167,7 @@ def create_pdf(dataframe):
     pdf.drawString(200, 800, "Generated MCQs")  # Title
 
     for index, row in dataframe.iterrows():
-        question_text = f"{index + 1}. {row['Question']}"
+        question_text = f"{index}. {row['Question']}"
         options = f"A) {row['Option A']}  B) {row['Option B']}  C) {row['Option C']}  D) {row['Option D']}"
         answer = f"Answer: {row['Answer']}"
 
