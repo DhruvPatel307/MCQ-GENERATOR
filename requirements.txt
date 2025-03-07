@@ -5,6 +5,7 @@ python-dotenv
 PyPDF2
 PyMuPDF
 reportlab
-
+langchain_community
+langchain_groq
 
 -e .
